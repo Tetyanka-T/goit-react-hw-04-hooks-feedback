@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import s from './Main.module.css';
+// import s from './Statistics.module.css';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
-    <ul className={s.list}>
+    <ul>
       <li>Good: {good}</li>
       <li>Neutral: {neutral}</li>
       <li>Bad: {bad}</li>
